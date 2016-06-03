@@ -8,16 +8,24 @@ h2 {
   font-family: Century Gothic, sans-serif;
   font-size: 15px; }
 
+h3 {
+  font-family: Century Gothic, sans-serif;
+  font-size: 30px; }
+
+h4 {
+  font-family: Georgia, serif;
+  font-size: 25px; }
+
 .containerhead {
   width: 100%; }
 
 .header {
-  background-color: #FF7B01;
+  background-color: #ED933B;
   width: auto; }
 
 .header h1 {
   margin: 0;
-  padding-top: 18px; }
+  padding-top: 10px; }
 
 .logo {
   display: inline-block;
@@ -25,20 +33,46 @@ h2 {
   padding-right: 0; }
 
 .logo img {
-  height: 40px;
-  left: 225px;
-  max-width: 40px;
+  height: 60px;
+  left: 250px;
+  max-width: 60px;
   position: absolute;
-  top: 9px; }
+  top: 0; }
 
-.about, .work, .social {
+.home, .about, .work, .social, .network {
   padding-right: 2px;
   padding-top: 4px;
-  padding-left: 2px; }
+  padding-left: 2px;
+  display: inline-block; }
 
-.about, .work, .social h2 {
-  vertical-align: bottom;
-  text-align: center; }
+.home, .about, .work, .social, .network i {
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: 5px; }
+
+.home i {
+  position: absolute;
+  top: 7px; }
+
+.about i {
+  position: absolute;
+  top: 5px;
+  left: 10px; }
+
+.work i {
+  position: absolute;
+  top: 7px; }
+
+.social i {
+  font-size: 26px;
+  position: absolute;
+  top: 8px; }
+
+.network i {
+  position: absolute;
+  top: 11px;
+  left: 0px; }
 
 .containerbody {
   width: 90%; }

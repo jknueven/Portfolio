@@ -1,4 +1,4 @@
-$primaryColor: #FF7B01;
+$primaryColor: #ED933B;
 $secondaryColor: #9A1D01;
 
 @import "text";
@@ -6,6 +6,13 @@ $secondaryColor: #9A1D01;
 @mixin textalign {
 	vertical-align: bottom;
 	text-align: center;
+}
+
+@mixin icon {
+	color:white;
+	font-size: 30px;
+    position: relative;
+    top: 5px;
 }
 
 .containerhead {
@@ -19,7 +26,7 @@ $secondaryColor: #9A1D01;
 
 .header h1 {
 	margin:0;
-	padding-top:18px;
+	padding-top:10px;
 }
 
 .logo {
@@ -28,21 +35,50 @@ $secondaryColor: #9A1D01;
 	padding-right:0;
 }
 .logo img{
-    height: 40px;
-    left: 225px;
-    max-width: 40px;
+    height: 60px;
+    left: 250px;
+    max-width: 60px;
     position: absolute;
-    top: 9px;
+    top: 0;
 }
 
-.about, .work, .social {
+.home, .about, .work, .social, .network {
 	padding-right:2px;
 	padding-top:4px;
 	padding-left:2px;
+	display:inline-block;
 }
 
-.about, .work, .social h2 {
-	@include textalign;
+.home,.about, .work, .social, .network i {
+	@include icon;
+}
+
+.home i {
+	position: absolute;
+	top: 7px;
+}
+
+.about i {
+	position: absolute;
+	top: 5px;
+	left: 10px;
+}
+
+.work i {
+	position: absolute;
+	top: 7px;
+}
+
+.social i {
+	font-size:26px;
+	position: absolute;
+	top: 8px;
+}
+
+.network i {
+	position: absolute;
+	top: 11px;
+	left: 0px ;
 }
 
 .containerbody {
