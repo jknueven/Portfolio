@@ -1,0 +1,44 @@
+h1 {
+  color: white;
+  font-family: Impact, sans-serif;
+  font-size: 30px; }
+
+h2 {
+  color: white;
+  font-family: Century Gothic, sans-serif;
+  font-size: 15px; }
+
+.containerhead {
+  width: 100%; }
+
+.header {
+  background-color: #FF7B01;
+  width: auto; }
+
+.header h1 {
+  margin: 0;
+  padding-top: 18px; }
+
+.logo {
+  display: inline-block;
+  padding-left: 25px;
+  padding-right: 0; }
+
+.logo img {
+  height: 40px;
+  left: 225px;
+  max-width: 40px;
+  position: absolute;
+  top: 9px; }
+
+.about, .work, .social {
+  padding-right: 2px;
+  padding-top: 4px;
+  padding-left: 2px; }
+
+.about, .work, .social h2 {
+  vertical-align: bottom;
+  text-align: center; }
+
+.containerbody {
+  width: 90%; }
